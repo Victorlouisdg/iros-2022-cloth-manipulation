@@ -8,3 +8,6 @@ Then run `conda install jupyter`
 
 
 Then you should be able to run the scripts in this repo.
+
+## Dirty fixes
+`if self._fast_norm:` in `timm` gave errors so I commented those lines.

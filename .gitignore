@@ -1,6 +1,9 @@
 .vscode
 wandb
 artifacts
+airo-ros2
+keypoint-detection
+tmp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

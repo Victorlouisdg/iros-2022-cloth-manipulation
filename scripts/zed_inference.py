@@ -54,7 +54,9 @@ def print_help() :
 
 
 def get_wandb_model():
-    checkpoint_reference = "airo-box-manipulation/clothes/model-2gerrzs4:v3"
+    # checkpoint_reference = "airo-box-manipulation/clothes/model-2gerrzs4:v3"
+    # checkpoint_reference = 'airo-box-manipulation/iros2022_0/model-1ip92rpu:v2'
+    checkpoint_reference = 'airo-box-manipulation/iros2022_0/model-17tyvqfk:v3'
 
     # download checkpoint locally (if not already cached)
     run = wandb.init(project="clothes", entity="airo-box-manipulation")
